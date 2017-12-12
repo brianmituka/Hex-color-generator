@@ -5,8 +5,8 @@ function getColor() {
 //sets background color style
 function setBackground(){
   var background = getColor();
-  document.body.style.background = background;
-  document.getElementById("hex").innerHTML = getColor();
+  document.body.style.background =  background;
+  document.getElementById("color").innerHTML = getColor();
 }
 
 // runs function on click

@@ -6,7 +6,9 @@ function getColor() {
 function setBackground(){
   var background = getColor();
   document.body.style.background = background;
+  document.getElementById("hex").innerHTML = getColor();
 }
+
 // runs function on click
 document.body.onkeyup = function(e){
   if(e.keyCode == 32){
